@@ -1,10 +1,5 @@
 # Split List
-Basic shopping list app using Firebase Auth and Database.
-
-## Pre-requisites
-- Android SDK 24
-- Android Build Tools v24.0.2
-- Android Support Repository
+Basic shopping list app following Material Design using Firebase Auth and Database.
 
 ## License
 Copyright 2016 Kenneth Wong
