@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/activity_list_content_coordinator"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.mad.splitlist.activity.ListContentActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/activity_list_content_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/extended_toolbar_height"
+            android:minHeight="?attr/actionBarSize"
+            android:paddingBottom="18dp"
+            android:background="?attr/colorPrimary"
+            android:gravity="bottom"
+            app:titleTextAppearance="@style/Headline.White"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_list_content" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/activity_list_content_fab_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:elevation="6dp"
+        app:borderWidth="0dp"
+        app:useCompatPadding="true"
+        app:fabSize="mini"
+        app:layout_anchor="@id/activity_list_content_toolbar"
+        app:layout_anchorGravity="bottom|start"
+        android:src="@drawable/ic_add" />
+
+</android.support.design.widget.CoordinatorLayout>

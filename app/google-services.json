@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "832568464649",
+    "firebase_url": "https://split-list-3396a.firebaseio.com",
+    "project_id": "split-list-3396a",
+    "storage_bucket": "split-list-3396a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832568464649:android:c4aaaea6e7498653",
+        "android_client_info": {
+          "package_name": "com.mad.splitlist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832568464649-pn5kr0dv80gld0emac3llp8t6aemlhfg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxcqPWwrL12Xhm1ZfAudH2vud_jAxMZH0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

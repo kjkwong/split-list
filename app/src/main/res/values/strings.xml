@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Split List</string>
+
+    <string name="btn_login">Log In</string>
+    <string name="btn_register">No account yet? Click here</string>
+    <string name="btn_signup">Sign Up</string>
+    <string name="btn_create">Create</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <string name="error_no_email">Please enter your email</string>
+    <string name="error_no_password">Please enter your password</string>
+    <string name="error_login_dialog_title">Could not log in</string>
+    <string name="error_incorrect_login_details">The email address or password entered is incorrect.</string>
+    <string name="error_required_name">Name is required</string>
+    <string name="error_required_email">Email is required</string>
+    <string name="error_email_in_use">Email is already in use</string>
+    <string name="error_required_password">Password is required</string>
+    <string name="error_invalid_format_email">Email format is incorrect</string>
+    <string name="error_short_password">Password must be at least 6 characters</string>
+    <string name="error_register_dialog_title">Could not sign up</string>
+    <string name="error_no_item_name">Please enter item name</string>
+    <string name="error_no_list_name">Please enter list name</string>
+    <string name="error_no_price">Please enter price</string>
+    <string name="error_no_quantity">Please enter quantity</string>
+
+    <string name="load_login">Authenticating…</string>
+    <string name="load_register">Registering…</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_required_full_name">Full Name*</string>
+    <string name="hint_required_email">Email*</string>
+    <string name="hint_required_password">Password*</string>
+    <string name="hint_required_confirm_password">Confirm Password*</string>
+    <string name="hint_itemname">Item Name</string>
+    <string name="hint_quantity">Quantity</string>
+    <string name="hint_price">Price</string>
+    <string name="helper_required">* indicates required field</string>
+    <string name="default_quantity">1</string>
+
+    <string name="action_signout">Sign out</string>
+    <string name="action_remove">Remove</string>
+    <string name="action_share">Share</string>
+    <string name="action_done">Done</string>
+    <string name="action_undo">Undo</string>
+
+    <string name="item_content_snackbar">Item deleted</string>
+
+    <string name="title_activity_register">Create Account</string>
+    <string name="title_activity_main">My Lists</string>
+    <string name="title_activity_list_content">Items</string>
+    <string name="title_activity_add_item">Add Item</string>
+    <string name="title_create_list_dialog">Create a new list</string>
+
+    <string name="share_title">Share list amount</string>
+    <string name="share_message_body">The total for the list, %1$s, is %2$s.</string>
+
+    <string name="tv_main_empty_state">You have no lists</string>
+    <string name="tv_content_list_empty_state">You have no items</string>
+    <string name="tv_num_of_items">Items: %1$d</string>
+    <string name="tv_total">Total: %1$s</string>
+    <string name="tv_price">Price: %1$s</string>
+    <string name="tv_quantity">Quantity: %1$d</string>
+</resources>

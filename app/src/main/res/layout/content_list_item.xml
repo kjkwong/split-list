@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/content_list_top_padding"
+    android:paddingBottom="@dimen/content_list_bottom_padding"
+    android:paddingLeft="@dimen/content_list_horizontal_padding"
+    android:paddingRight="@dimen/content_list_horizontal_padding">
+
+    <CheckBox
+        android:id="@+id/content_item_chk_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/content_list_left_icon_horizontal_padding"
+        android:paddingRight="@dimen/content_list_left_icon_horizontal_padding"
+        android:layout_centerVertical="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/content_list_text_left_padding"
+        android:paddingStart="@dimen/content_list_text_left_padding"
+        android:paddingRight="@dimen/no_padding"
+        android:paddingEnd="@dimen/no_padding"
+        android:layout_toLeftOf="@+id/content_item_iv_delete"
+        android:layout_toStartOf="@+id/content_item_iv_delete">
+
+        <TextView
+            android:id="@+id/content_item_tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:alpha="0.87" />
+
+        <TextView
+            android:id="@+id/content_item_tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/content_item_tv_name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:alpha="0.54" />
+
+        <TextView
+            android:id="@+id/content_item_tv_quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/content_item_tv_name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:alpha="0.54" />
+
+        <TextView
+            android:id="@+id/content_item_tv_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/content_item_tv_price"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:alpha="0.54" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/content_item_iv_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/content_list_left_icon_horizontal_padding"
+        android:paddingStart="@dimen/content_list_left_icon_horizontal_padding"
+        android:paddingRight="@dimen/no_padding"
+        android:paddingEnd="@dimen/no_padding"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:alpha="0.54"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_delete"/>
+
+</RelativeLayout>

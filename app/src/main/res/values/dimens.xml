@@ -1,0 +1,59 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="no_padding">0dp</dimen>
+
+    <dimen name="til_height">84dp</dimen>
+
+    <!-- Toolbar -->
+    <dimen name="extended_toolbar_height">128dp</dimen>
+
+    <!-- LoginActivity dimensions -->
+    <dimen name="login_activity_horizontal_margin">24dp</dimen>
+    <dimen name="login_activity_vertical_margin">24dp</dimen>
+    <dimen name="login_header_top_padding">24dp</dimen>
+    <dimen name="login_group_layout_top_padding">48dp</dimen>
+    <dimen name="login_group_button_top_padding">32dp</dimen>
+    <dimen name="login_tv_create_account_top_padding">24dp</dimen>
+
+    <!-- RegisterActivity dimensions -->
+    <dimen name="register_vertical_margin">16dp</dimen>
+    <dimen name="register_helper_top_padding">24dp</dimen>
+    <dimen name="register_btn_signup_top_margin">48dp</dimen>
+
+    <!-- Split List Item dimensions (Card) -->
+    <dimen name="splitlist_card_corner_radius">2dp</dimen>
+    <dimen name="splitlist_card_screen_padding">8dp</dimen>
+    <dimen name="splitlist_card_margin_space">4dp</dimen>
+    <dimen name="splitlist_overflow_touchable_width">48dp</dimen>
+    <dimen name="splitlist_overflow_touchable_height">48dp</dimen>
+    <dimen name="splitlist_overflow_top_margin">16dp</dimen>
+    <dimen name="splitlist_card_primary_top_padding">24dp</dimen>
+    <dimen name="splitlist_card_primary_bottom_padding">16dp</dimen>
+    <dimen name="splitlist_card_primary_horizontal_padding">16dp</dimen>
+    <dimen name="splitlist_card_subtitle_top_padding">12dp</dimen>
+    <dimen name="splitlist_card_subtitle_horizontal_padding">16dp</dimen>
+    <dimen name="splitlist_card_subtext_bottom_padding">16dp</dimen>
+    <dimen name="splitlist_card_subtext_horizontal_padding">16dp</dimen>
+    <dimen name="splitlist_card_supporting_top_padding">16dp</dimen>
+    <dimen name="splitlist_card_supporting_bottom_padding">16dp</dimen>
+    <dimen name="splitlist_card_supporting_horizontal_padding">16dp</dimen>
+    <dimen name="splitlist_card_action_padding">8dp</dimen>
+    <dimen name="splitlist_card_action_bottom_padding">2dp</dimen>
+
+    <!-- Item Content List (Three-line item)-->
+    <dimen name="content_list_screen_padding">8dp</dimen>
+    <dimen name="content_list_top_padding">16dp</dimen>
+    <dimen name="content_list_bottom_padding">20dp</dimen>
+    <dimen name="content_list_horizontal_padding">16dp</dimen>
+    <dimen name="content_list_text_left_padding">56dp</dimen>
+    <dimen name="content_list_text_right_padding">20dp</dimen>
+    <dimen name="content_list_left_icon_horizontal_padding">16dp</dimen>
+    <dimen name="content_list_right_icon_horizontal_padding">16dp</dimen>
+
+    <!-- Flat Buttons -->
+    <dimen name="flat_btn_height">36dp</dimen>
+    <dimen name="flat_btn_touchable_padding">6dp</dimen>
+</resources>
